@@ -1,16 +1,23 @@
 ### Notes from November 16
 
-# From Motive
+## From Motive
 Constructing skeletal measurements from Motive
 * manually find skeleton in T pose
 * randomly sample 20 other frames
-Compute skeletal measurements via distances between labeled nodes: details are in [HERE], for variables [xyz]
+
+  
+Compute skeletal measurements via distances between labeled nodes: details are in [HERE], for variables [xyz], stored in [FILENAME]
 
 
-# From RGB inferred pose/skeleton
-More directly comparable
+## From RGB inferred pose/skeleton
+
+More directly comparable on height? etc.
 
 Compute skeletal measurements
+
+## From Kinect
+
+Less useful for [body measurements?] beacuse the angle of the camera
 
 
 # Ideal table we want to create
