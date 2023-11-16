@@ -19,6 +19,9 @@ Data collection mode | tape measure | RGB frame 1 | RGB frame avg | depth camera
 
 where for each row, how each skeletal measurement is defined: 
 
+
 body measurement | description of measurement | process to infer that measurement in this data and where it is saved | etc. |...
+
 standing height | feet to head with tape measure | difference between x and y calculated via this input processed through this | etc.
+
 biachromial breadth | ... | ... | 
