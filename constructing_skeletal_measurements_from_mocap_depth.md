@@ -22,7 +22,7 @@ Less useful for [body measurements?] beacuse the angle of the camera
 
 # Ideal table we want to create
 
-That can help us crosswalk between body tape measurement names and the inferred skeleton body measurements.
+That can help us crosswalk between body tape measurement names and the inferred skeleton body measurements. They are corresponding but differently named (possibly) and differently calculated. (But not all measurements will be commensurable: for example we don't have thigh circumference from)
 
 
 Data collection mode | tape measure | RGB frame 1 | RGB frame avg | depth camera | mocap etc.
