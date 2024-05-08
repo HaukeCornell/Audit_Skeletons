@@ -1,0 +1,289 @@
+across_within,measure,model,var,coef,pvalue,tool,pvalue_adjusted,significant,significant_robustness_firstsessiononly,significant_robustness_session1only,significant_robustness_session2only,significant_robustness_BMIweight1
+within,standing_height,avg_standing_height,const,-15.85061923822053,0.01903216834433777,,0.1442438021886652,False,False,True,False,False
+within,standing_height,avg_standing_height,avg_standing_height,-0.06231090269122596,0.1352004019790058,,0.4033655915978158,False,False,False,False,False
+within,standing_height,avg_standing_height + session_no,const,-16.670550274066372,0.01641013475764492,,0.13128107806115935,False,False,True,False,False
+within,standing_height,avg_standing_height + session_no,avg_standing_height,-0.055153290518582275,0.20125096044545848,,0.44896049357428386,False,False,False,False,False
+within,standing_height,avg_standing_height + session_no,session_no_2,-0.5862783069726527,0.4905681173306964,,0.7029035711006992,False,,,,False
+within,standing_height,avg_standing_height + session_no + BMI,const,-13.428846218146996,0.04745874491513386,,0.2163048838195832,False,False,False,False,False
+within,standing_height,avg_standing_height + session_no + BMI,avg_standing_height,-0.03796848288636335,0.3657409239441046,,0.6306489333336189,False,False,False,False,False
+within,standing_height,avg_standing_height + session_no + BMI,BMI,-0.24603487660083467,0.053549973363354694,,0.22317266020462628,False,False,False,False,False
+within,standing_height,avg_standing_height + session_no + BMI,session_no_2,-0.5734456173877467,0.4813781851162,,0.6985338103500986,False,,,,False
+within,standing_height,avg_standing_height + session_no + BMI + weight,const,-136.59518850508334,1.9404235013281458e-06,,0.00014110699051005397,True,True,True,True,True
+within,standing_height,avg_standing_height + session_no + BMI + weight,avg_standing_height,0.7170689926324287,2.1929426726483593e-05,,0.000701741655247475,True,False,True,True,True
+within,standing_height,avg_standing_height + session_no + BMI + weight,BMI,2.569495785556681,3.4226006330375305e-05,,0.0008960990748316444,True,False,True,True,True
+within,standing_height,avg_standing_height + session_no + BMI + weight,weight,-0.9053998860303745,7.271092890914843e-06,,0.00030039292472643894,True,True,True,True,True
+within,standing_height,avg_standing_height + session_no + BMI + weight,session_no_2,-0.24414570598905438,0.6825871768012937,,0.8365323698671173,False,,,,False
+within,standing_height,avg_standing_height + session_no + BMI + weight + sex,const,-143.88632936255712,2.4547097756566665e-06,,0.000141391283077824,True,True,True,True,True
+within,standing_height,avg_standing_height + session_no + BMI + weight + sex,avg_standing_height,0.7571826182668895,2.186915645219479e-05,,0.000701741655247475,True,False,True,True,True
+within,standing_height,avg_standing_height + session_no + BMI + weight + sex,BMI,2.6575386253867372,3.034644155916015e-05,,0.0008739775169038124,True,False,True,True,True
+within,standing_height,avg_standing_height + session_no + BMI + weight + sex,weight,-0.9159115494632365,7.30121692043428e-06,,0.00030039292472643894,True,True,True,True,True
+within,standing_height,avg_standing_height + session_no + BMI + weight + sex,session_no_2,-0.1988511707786076,0.7406885676427499,,0.8567000300446264,False,,,,False
+within,standing_height,avg_standing_height + session_no + BMI + weight + sex,sex_Male,-0.948225274219562,0.3741535727035161,,0.6306489333336189,False,False,False,False,False
+within,wingspan,avg_wingspan,const,-12.261890378441613,0.14036630437791028,,0.4033655915978158,False,False,False,False,False
+within,wingspan,avg_wingspan,avg_wingspan,-0.15934665053917063,0.004693160935222211,,0.06758151746719984,False,False,False,True,False
+within,wingspan,avg_wingspan + session_no,const,-12.777217823735963,0.13015359596990053,,0.4033655915978158,False,False,False,False,False
+within,wingspan,avg_wingspan + session_no,avg_wingspan,-0.15329674523886833,0.007621344664697456,,0.08129434309010619,False,False,False,True,False
+within,wingspan,avg_wingspan + session_no,session_no_2,-0.7871419995024889,0.5232024871160492,,0.7214905455642023,False,,,,False
+within,wingspan,avg_wingspan + session_no + BMI,const,-7.804286975961572,0.3392469406116174,,0.6150301082398265,False,False,False,False,False
+within,wingspan,avg_wingspan + session_no + BMI,avg_wingspan,-0.12049911220234649,0.029071047527814774,,0.1674492337602131,False,False,False,True,False
+within,wingspan,avg_wingspan + session_no + BMI,BMI,-0.41429136838642955,0.028520783971224543,,0.1674492337602131,False,False,False,False,False
+within,wingspan,avg_wingspan + session_no + BMI,session_no_2,-0.7548403061883215,0.5155637260943131,,0.720788121918263,False,,,,False
+within,wingspan,avg_wingspan + session_no + BMI + weight,const,-31.720999288249317,0.12332430188179698,,0.39721540709534564,False,False,False,False,False
+within,wingspan,avg_wingspan + session_no + BMI + weight,avg_wingspan,0.03183140553832475,0.805449477327324,,0.8998188734124886,False,False,False,False,False
+within,wingspan,avg_wingspan + session_no + BMI + weight,BMI,0.24882825964486255,0.648107810527363,,0.8150875521042819,False,False,False,False,False
+within,wingspan,avg_wingspan + session_no + BMI + weight,weight,-0.22213597951834352,0.20265577834950313,,0.44896049357428386,False,False,False,False,False
+within,wingspan,avg_wingspan + session_no + BMI + weight,session_no_2,-0.36823202293760016,0.755883031022596,,0.8673080196593931,False,,,,False
+within,wingspan,avg_wingspan + session_no + BMI + weight + sex,const,-29.54190597304511,0.1719788357457473,,0.44723041473553743,False,False,False,False,False
+within,wingspan,avg_wingspan + session_no + BMI + weight + sex,avg_wingspan,0.021718057847060268,0.8710736372087141,,0.9115876603622988,False,False,False,False,False
+within,wingspan,avg_wingspan + session_no + BMI + weight + sex,BMI,0.2571974543546553,0.642210210448696,,0.811212897408879,False,False,False,False,False
+within,wingspan,avg_wingspan + session_no + BMI + weight + sex,weight,-0.2385200731902566,0.19136352700077439,,0.4480706973676668,False,False,False,False,False
+within,wingspan,avg_wingspan + session_no + BMI + weight + sex,session_no_2,-0.4133792967336136,0.7321517743168016,,0.8564892879249992,False,,,,False
+within,wingspan,avg_wingspan + session_no + BMI + weight + sex,sex_Male,0.7671725580850226,0.7084311859413064,,0.8396221463008076,False,False,False,False,False
+within,sitting_height,avg_sitting_height,const,-22.809190863832143,0.02980169074228434,,0.1677094476848065,False,False,False,True,False
+within,sitting_height,avg_sitting_height,avg_sitting_height,-0.051018505235682354,0.7028226478904747,,0.8396221463008076,False,False,False,False,False
+within,sitting_height,avg_sitting_height + session_no,const,-23.30697468362065,0.028096181745489914,,0.1674492337602131,False,False,False,True,False
+within,sitting_height,avg_sitting_height + session_no,avg_sitting_height,-0.0377434054106176,0.7810387246455355,,0.8890875600708072,False,False,False,False,False
+within,sitting_height,avg_sitting_height + session_no,session_no_2,-0.9607062043122845,0.4631078506232278,,0.6872653002370313,False,,,,False
+within,sitting_height,avg_sitting_height + session_no + BMI,const,-25.32261895522233,0.02220997804586037,,0.14875520179552992,False,False,False,True,False
+within,sitting_height,avg_sitting_height + session_no + BMI,avg_sitting_height,-0.061248671158790624,0.6621466003086902,,0.8184472999523725,False,False,False,False,False
+within,sitting_height,avg_sitting_height + session_no + BMI,BMI,0.157335695915102,0.44486439866822625,,0.6814943979598359,False,False,False,False,False
+within,sitting_height,avg_sitting_height + session_no + BMI,session_no_2,-0.9919615636045709,0.4519406619965213,,0.6850468981842007,False,,,,False
+within,sitting_height,avg_sitting_height + session_no + BMI + weight,const,-65.714173171865,0.00045511765217766815,,0.008738258921811229,True,False,False,True,True
+within,sitting_height,avg_sitting_height + session_no + BMI + weight,avg_sitting_height,0.4384847378289751,0.046838535139953806,,0.2163048838195832,False,False,False,False,False
+within,sitting_height,avg_sitting_height + session_no + BMI + weight,BMI,1.2913549402128415,0.005160108751586126,,0.0707672057360383,False,False,False,False,False
+within,sitting_height,avg_sitting_height + session_no + BMI + weight,weight,-0.357288171046733,0.006437362673600623,,0.07415841799987917,False,False,False,False,False
+within,sitting_height,avg_sitting_height + session_no + BMI + weight,session_no_2,-0.07054163419555337,0.9540213846350714,,0.9691567886962852,False,,,,False
+within,sitting_height,avg_sitting_height + session_no + BMI + weight + sex,const,-66.85424756198098,0.0009751897909609892,,0.017553416237297805,True,False,False,True,True
+within,sitting_height,avg_sitting_height + session_no + BMI + weight + sex,avg_sitting_height,0.4494328265683144,0.05443187895257033,,0.22317266020462628,False,False,False,False,False
+within,sitting_height,avg_sitting_height + session_no + BMI + weight + sex,BMI,1.2853885040103545,0.0062782145965115865,,0.07415841799987917,False,False,False,False,False
+within,sitting_height,avg_sitting_height + session_no + BMI + weight + sex,weight,-0.3485919233555348,0.014445324272388446,,0.12606828455902644,False,False,False,False,False
+within,sitting_height,avg_sitting_height + session_no + BMI + weight + sex,session_no_2,-0.04746779522680544,0.9697281944293984,,0.9731070383124276,False,,,,False
+within,sitting_height,avg_sitting_height + session_no + BMI + weight + sex,sex_Male,-0.36904627258512424,0.8654605964817689,,0.9115876603622988,False,False,False,False,False
+within,upper_leg_length,avg_upper_leg_length,const,-16.556463352289864,0.04775943895348762,,0.2163048838195832,False,False,False,False,False
+within,upper_leg_length,avg_upper_leg_length,avg_upper_leg_length,0.22844641004106397,0.21188186900392353,,0.4548281459006441,False,False,False,False,False
+within,upper_leg_length,avg_upper_leg_length + session_no,const,-17.15592218434241,0.04326834972803055,,0.2163048838195832,False,False,False,False,False
+within,upper_leg_length,avg_upper_leg_length + session_no,avg_upper_leg_length,0.2520660299613777,0.17943471182186146,,0.44723041473553743,False,False,False,False,False
+within,upper_leg_length,avg_upper_leg_length + session_no,session_no_2,-0.8682779816118196,0.4759939671014257,,0.6985338103500986,False,,,,False
+within,upper_leg_length,avg_upper_leg_length + session_no + BMI,const,-10.338551868381547,0.23829445425773546,,0.4799216980855092,False,False,False,False,False
+within,upper_leg_length,avg_upper_leg_length + session_no + BMI,avg_upper_leg_length,0.28224135126380173,0.12127702764181919,,0.39721540709534564,False,False,False,False,False
+within,upper_leg_length,avg_upper_leg_length + session_no + BMI,BMI,-0.33932238767461076,0.06254086426549192,,0.2434022825467794,False,False,False,False,False
+within,upper_leg_length,avg_upper_leg_length + session_no + BMI,session_no_2,-0.7714487870055893,0.5102637934892418,,0.7168584025604957,False,,,,False
+within,upper_leg_length,avg_upper_leg_length + session_no + BMI + weight,const,3.5503664611331316,0.7914142306953444,,0.8973515686624378,False,False,False,False,False
+within,upper_leg_length,avg_upper_leg_length + session_no + BMI + weight,avg_upper_leg_length,0.015962119847114847,0.9520159206051344,,0.9691567886962852,False,False,False,False,False
+within,upper_leg_length,avg_upper_leg_length + session_no + BMI + weight,BMI,-0.8315307380456843,0.04727414615783209,,0.2163048838195832,False,False,False,False,False
+within,upper_leg_length,avg_upper_leg_length + session_no + BMI + weight,weight,0.14231601183632842,0.18507035365781882,,0.44723041473553743,False,False,False,False,False
+within,upper_leg_length,avg_upper_leg_length + session_no + BMI + weight,session_no_2,-1.0655840995133072,0.36705908960029665,,0.6306489333336189,False,,,,False
+within,upper_leg_length,avg_upper_leg_length + session_no + BMI + weight + sex,const,4.177999296027036,0.752836870475226,,0.8672680747874603,False,False,False,False,False
+within,upper_leg_length,avg_upper_leg_length + session_no + BMI + weight + sex,avg_upper_leg_length,0.04864730333625089,0.853330664527914,,0.9115876603622988,False,False,False,False,False
+within,upper_leg_length,avg_upper_leg_length + session_no + BMI + weight + sex,BMI,-0.6497659938130547,0.132043685696505,,0.4033655915978158,False,False,False,False,False
+within,upper_leg_length,avg_upper_leg_length + session_no + BMI + weight + sex,weight,0.0341748994213205,0.7962225693149041,,0.8992631371085975,False,False,False,False,False
+within,upper_leg_length,avg_upper_leg_length + session_no + BMI + weight + sex,session_no_2,-1.1638064233885597,0.32024568454457797,,0.595037142895732,False,,,,False
+within,upper_leg_length,avg_upper_leg_length + session_no + BMI + weight + sex,sex_Male,2.631540609921198,0.18859405684894415,,0.4480706973676668,False,False,False,False,False
+within,biacromial_breadth,avg_biacromial_breadth,const,-0.6718489572318624,0.8736048411805364,,0.9115876603622988,False,False,False,False,False
+within,biacromial_breadth,avg_biacromial_breadth,avg_biacromial_breadth,-1.1677135336145847,1.3538014212545974e-06,,0.00014110699051005397,True,True,False,True,True
+within,biacromial_breadth,avg_biacromial_breadth + session_no,const,0.3490352653016604,0.9372394225982482,,0.9610366206214868,False,False,False,False,False
+within,biacromial_breadth,avg_biacromial_breadth + session_no,avg_biacromial_breadth,-1.1956736975480553,1.4099628234005655e-06,,0.00014110699051005397,True,True,False,True,True
+within,biacromial_breadth,avg_biacromial_breadth + session_no,session_no_2,-0.830138566973067,0.4254809028227847,,0.6658088740655678,False,,,,False
+within,biacromial_breadth,avg_biacromial_breadth + session_no + BMI,const,5.43727682330713,0.3193662604038248,,0.595037142895732,False,False,False,False,False
+within,biacromial_breadth,avg_biacromial_breadth + session_no + BMI,avg_biacromial_breadth,-1.161403690244177,1.9598193126396387e-06,,0.00014110699051005397,True,True,False,True,True
+within,biacromial_breadth,avg_biacromial_breadth + session_no + BMI,BMI,-0.24223100119803376,0.1241298147172955,,0.39721540709534564,False,False,False,False,False
+within,biacromial_breadth,avg_biacromial_breadth + session_no + BMI,session_no_2,-0.7063973719974368,0.4890443731425902,,0.7029035711006992,False,,,,False
+within,biacromial_breadth,avg_biacromial_breadth + session_no + BMI + weight,const,8.926276228208764,0.25512842535434394,,0.499843445592184,False,False,False,False,False
+within,biacromial_breadth,avg_biacromial_breadth + session_no + BMI + weight,avg_biacromial_breadth,-1.2877752237530338,7.72669676696899e-05,,0.0018544072240725576,True,False,False,True,True
+within,biacromial_breadth,avg_biacromial_breadth + session_no + BMI + weight,BMI,-0.4330077851584906,0.20755133508648554,,0.4542393235624851,False,False,False,False,False
+within,biacromial_breadth,avg_biacromial_breadth + session_no + BMI + weight,weight,0.05556158603491651,0.5276401525077474,,0.7236207805820536,False,False,False,False,False
+within,biacromial_breadth,avg_biacromial_breadth + session_no + BMI + weight,session_no_2,-1.051825277627187,0.3688237350712317,,0.6306489333336189,False,,,,False
+within,biacromial_breadth,avg_biacromial_breadth + session_no + BMI + weight + sex,const,10.679718034478434,0.24807054106161514,,0.48934462894346,False,False,False,False,False
+within,biacromial_breadth,avg_biacromial_breadth + session_no + BMI + weight + sex,avg_biacromial_breadth,-1.3364421512162405,0.00018895122180506978,,0.004185996298450776,True,False,False,True,True
+within,biacromial_breadth,avg_biacromial_breadth + session_no + BMI + weight + sex,BMI,-0.42476645300615035,0.22361826003697313,,0.4666815861641178,False,False,False,False,False
+within,biacromial_breadth,avg_biacromial_breadth + session_no + BMI + weight + sex,weight,0.03828417189308043,0.702295481370989,,0.8396221463008076,False,False,False,False,False
+within,biacromial_breadth,avg_biacromial_breadth + session_no + BMI + weight + sex,session_no_2,-1.1677827055677596,0.3416833934665703,,0.6150301082398265,False,,,,False
+within,biacromial_breadth,avg_biacromial_breadth + session_no + BMI + weight + sex,sex_Male,0.7418135813467046,0.7063086864310133,,0.8396221463008076,False,False,False,False,False
+within,upper_arm_length,avg_upper_arm_length,const,-14.362832851149694,0.09089457876370655,,0.3296701886341985,False,False,False,False,False
+within,upper_arm_length,avg_upper_arm_length,avg_upper_arm_length,0.1966512152970087,0.4124745287650078,,0.6582605078373887,False,False,False,False,False
+within,upper_arm_length,avg_upper_arm_length + session_no,const,-14.96881148820417,0.08150920249453762,,0.3088769778740373,False,False,False,False,False
+within,upper_arm_length,avg_upper_arm_length + session_no,avg_upper_arm_length,0.20183340610305225,0.40312250663186766,,0.6485993402792061,False,False,False,False,False
+within,upper_arm_length,avg_upper_arm_length + session_no,session_no_2,0.806820212656997,0.4245216570270912,,0.6658088740655678,False,,,,False
+within,upper_arm_length,avg_upper_arm_length + session_no + BMI,const,-13.859878469213067,0.12303204148224832,,0.39721540709534564,False,False,False,False,False
+within,upper_arm_length,avg_upper_arm_length + session_no + BMI,avg_upper_arm_length,0.22136546836073817,0.37235661310107593,,0.6306489333336189,False,False,False,False,False
+within,upper_arm_length,avg_upper_arm_length + session_no + BMI,BMI,-0.07448881007193237,0.6394259954071513,,0.811212897408879,False,False,False,False,False
+within,upper_arm_length,avg_upper_arm_length + session_no + BMI,session_no_2,0.8380139663174778,0.4136984441616922,,0.6582605078373887,False,,,,False
+within,upper_arm_length,avg_upper_arm_length + session_no + BMI + weight,const,1.2759552831071392,0.9376780916480478,,0.9610366206214868,False,False,False,False,False
+within,upper_arm_length,avg_upper_arm_length + session_no + BMI + weight,avg_upper_arm_length,-0.17621187738299593,0.6870610744817238,,0.8384474129268494,False,False,False,False,False
+within,upper_arm_length,avg_upper_arm_length + session_no + BMI + weight,BMI,-0.47773517092226625,0.23654586987863319,,0.47975500369750956,False,False,False,False,False
+within,upper_arm_length,avg_upper_arm_length + session_no + BMI + weight,weight,0.12325089311055233,0.27562663588925557,,0.5292031409073706,False,False,False,False,False
+within,upper_arm_length,avg_upper_arm_length + session_no + BMI + weight,session_no_2,0.2601579064715116,0.820167488663663,,0.9050124012840419,False,,,,False
+within,upper_arm_length,avg_upper_arm_length + session_no + BMI + weight + sex,const,0.8378214561203515,0.9602270784906097,,0.9703347319484057,False,False,False,False,False
+within,upper_arm_length,avg_upper_arm_length + session_no + BMI + weight + sex,avg_upper_arm_length,-0.1709097932736482,0.7013849572308287,,0.8396221463008076,False,False,False,False,False
+within,upper_arm_length,avg_upper_arm_length + session_no + BMI + weight + sex,BMI,-0.4910529964516061,0.24063241097897184,,0.4812648219579437,False,False,False,False,False
+within,upper_arm_length,avg_upper_arm_length + session_no + BMI + weight + sex,weight,0.13320386148634686,0.3063342071709359,,0.5766290958511735,False,False,False,False,False
+within,upper_arm_length,avg_upper_arm_length + session_no + BMI + weight + sex,session_no_2,0.2771597660491981,0.8124007345708232,,0.8998900444476811,False,,,,False
+within,upper_arm_length,avg_upper_arm_length + session_no + BMI + weight + sex,sex_Male,-0.2962097725505419,0.8702396938805999,,0.9115876603622988,False,False,False,False,False
+across,standing_height,avg_mocap_standing_height,const,-4.492533845837609,0.8093309573823902,mocap,0.8998900444476811,False,False,False,False,False
+across,standing_height,avg_mocap_standing_height,avg_mocap_standing_height,0.031637483059960454,0.8060877407653544,mocap,0.8998188734124886,False,False,False,False,False
+across,standing_height,avg_mocap_standing_height + avg_BMI,const,-14.080393516340141,0.5188939121816303,mocap,0.7214905455642023,False,False,False,False,False
+across,standing_height,avg_mocap_standing_height + avg_BMI,avg_mocap_standing_height,0.019134031856423497,0.8836519142251255,mocap,0.9157191444042708,False,False,False,False,False
+across,standing_height,avg_mocap_standing_height + avg_BMI,avg_BMI,0.4638255074530001,0.3772939216158734,mocap,0.6306489333336189,False,False,False,False,
+across,standing_height,avg_mocap_standing_height + avg_BMI + avg_weight,const,137.17055066733835,0.18483986812702097,mocap,0.44723041473553743,False,False,False,False,False
+across,standing_height,avg_mocap_standing_height + avg_BMI + avg_weight,avg_mocap_standing_height,-0.9488134720231011,0.15466925748960147,mocap,0.42023345431137005,False,False,False,False,False
+across,standing_height,avg_mocap_standing_height + avg_BMI + avg_weight,avg_BMI,-3.43173288588521,0.1951626740872289,mocap,0.44817845817842816,False,False,False,False,
+across,standing_height,avg_mocap_standing_height + avg_BMI + avg_weight,avg_weight,1.179621807815429,0.14085655392115434,mocap,0.4033655915978158,False,False,False,False,
+across,standing_height,avg_mocap_standing_height + avg_BMI + avg_weight + sex,const,160.9535819209476,0.14131319328193276,mocap,0.4033655915978158,False,False,False,False,False
+across,standing_height,avg_mocap_standing_height + avg_BMI + avg_weight + sex,avg_mocap_standing_height,-1.04783378902472,0.1293638678822474,mocap,0.4033655915978158,False,False,False,False,False
+across,standing_height,avg_mocap_standing_height + avg_BMI + avg_weight + sex,avg_BMI,-3.5781386829531656,0.18352456514163282,mocap,0.44723041473553743,False,False,False,False,
+across,standing_height,avg_mocap_standing_height + avg_BMI + avg_weight + sex,avg_weight,1.0585961040558989,0.18997809946993288,mocap,0.4480706973676668,False,False,False,False,
+across,standing_height,avg_mocap_standing_height + avg_BMI + avg_weight + sex,sex_Male,5.397545266844546,0.34030677734537684,mocap,0.6150301082398265,False,False,False,False,False
+across,wingspan,avg_mocap_wingspan,const,-37.70956964700499,0.006086105391241875,mocap,0.07415841799987917,False,False,False,False,False
+across,wingspan,avg_mocap_wingspan,avg_mocap_wingspan,0.2807383172373698,0.005894762584126656,mocap,0.07415841799987917,False,False,False,False,False
+across,wingspan,avg_mocap_wingspan + avg_BMI,const,-25.80734637075143,0.05501825998100162,mocap,0.22317266020462628,False,False,False,False,False
+across,wingspan,avg_mocap_wingspan + avg_BMI,avg_mocap_wingspan,0.30490687588425636,0.002501007851138974,mocap,0.04237001536047203,True,False,False,True,True
+across,wingspan,avg_mocap_wingspan + avg_BMI,avg_BMI,-0.6171477548300228,0.09808856175368695,mocap,0.34450616811051027,False,False,False,False,
+across,wingspan,avg_mocap_wingspan + avg_BMI + avg_weight,const,-50.633572661040034,0.09205544143864382,mocap,0.3296701886341985,False,False,False,False,False
+across,wingspan,avg_mocap_wingspan + avg_BMI + avg_weight,avg_mocap_wingspan,0.4796107604142764,0.030280872498645618,mocap,0.1677094476848065,False,False,False,False,False
+across,wingspan,avg_mocap_wingspan + avg_BMI + avg_weight,avg_BMI,0.19283866997936328,0.8249223405473005,mocap,0.9067848628916891,False,False,False,False,
+across,wingspan,avg_mocap_wingspan + avg_BMI + avg_weight,avg_weight,-0.2611030959097578,0.32662147451125556,mocap,0.6029934914053949,False,False,False,False,
+across,wingspan,avg_mocap_wingspan + avg_BMI + avg_weight + sex,const,-32.687263245793204,0.2851474884928635,mocap,0.5438574614963224,False,False,False,False,False
+across,wingspan,avg_mocap_wingspan + avg_BMI + avg_weight + sex,avg_mocap_wingspan,0.4071975512591463,0.05894637148834134,mocap,0.2325555477896206,False,False,False,False,False
+across,wingspan,avg_mocap_wingspan + avg_BMI + avg_weight + sex,avg_BMI,0.14443743365671535,0.8618837887023294,mocap,0.9115876603622988,False,False,False,False,
+across,wingspan,avg_mocap_wingspan + avg_BMI + avg_weight + sex,avg_weight,-0.39565315949076163,0.16625767456518206,mocap,0.4392863327960774,False,False,False,False,
+across,wingspan,avg_mocap_wingspan + avg_BMI + avg_weight + sex,sex_Male,5.128739256178229,0.2097702431729532,mocap,0.4542393235624851,False,False,False,False,False
+across,sitting_height,avg_mocap_sitting_height,const,30.461992781338466,0.07762933823943778,mocap,0.2980966588394411,False,False,False,False,False
+across,sitting_height,avg_mocap_sitting_height,avg_mocap_sitting_height,-0.4794904870601505,0.08491852335922805,mocap,0.31761733412282694,False,False,False,False,False
+across,sitting_height,avg_mocap_sitting_height + avg_BMI,const,14.977514219992523,0.3957229321766882,mocap,0.6440533798510294,False,False,False,False,False
+across,sitting_height,avg_mocap_sitting_height + avg_BMI,avg_mocap_sitting_height,-0.5209984461540683,0.050279750518716367,mocap,0.22277797152908177,False,False,False,False,False
+across,sitting_height,avg_mocap_sitting_height + avg_BMI,avg_BMI,0.7346880232270236,0.11992727992941793,mocap,0.39721540709534564,False,False,False,False,
+across,sitting_height,avg_mocap_sitting_height + avg_BMI + avg_weight,const,39.83850309863743,0.11629390428609908,mocap,0.3940311109929004,False,False,False,False,False
+across,sitting_height,avg_mocap_sitting_height + avg_BMI + avg_weight,avg_mocap_sitting_height,-0.8710747073213515,0.02441656669204975,mocap,0.15981752743887112,False,False,False,False,False
+across,sitting_height,avg_mocap_sitting_height + avg_BMI + avg_weight,avg_BMI,-0.18402424121901273,0.8054904613311009,mocap,0.8998188734124886,False,False,False,False,
+across,sitting_height,avg_mocap_sitting_height + avg_BMI + avg_weight,avg_weight,0.27077580524327916,0.1659098243460345,mocap,0.4392863327960774,False,False,False,False,
+across,sitting_height,avg_mocap_sitting_height + avg_BMI + avg_weight + sex,const,63.27893171600532,0.04806775195990738,mocap,0.2163048838195832,False,False,False,False,False
+across,sitting_height,avg_mocap_sitting_height + avg_BMI + avg_weight + sex,avg_mocap_sitting_height,-1.0690435578947148,0.013016087453038337,mocap,0.12092365117661423,False,False,False,False,False
+across,sitting_height,avg_mocap_sitting_height + avg_BMI + avg_weight + sex,avg_BMI,-0.142162150667826,0.8394085138327241,mocap,0.9115876603622988,False,False,False,False,
+across,sitting_height,avg_mocap_sitting_height + avg_BMI + avg_weight + sex,avg_weight,0.05001413538910898,0.8294301545450298,mocap,0.9082733251291581,False,False,False,False,
+across,sitting_height,avg_mocap_sitting_height + avg_BMI + avg_weight + sex,sex_Male,6.877716026834223,0.18443280049158825,mocap,0.44723041473553743,False,False,False,False,False
+across,upper_leg_length,avg_mocap_upper_leg_length,const,-13.933056943116462,0.18614097401300492,mocap,0.44723041473553743,False,False,False,False,False
+across,upper_leg_length,avg_mocap_upper_leg_length,avg_mocap_upper_leg_length,0.33555802709719107,0.17998432213770757,mocap,0.44723041473553743,False,False,False,False,False
+across,upper_leg_length,avg_mocap_upper_leg_length + avg_BMI,const,-8.380233458806346,0.5600444134453044,mocap,0.7572431505739328,False,False,False,False,False
+across,upper_leg_length,avg_mocap_upper_leg_length + avg_BMI,avg_mocap_upper_leg_length,0.3349043225750147,0.19763425065507076,mocap,0.44817845817842816,False,False,False,False,False
+across,upper_leg_length,avg_mocap_upper_leg_length + avg_BMI,avg_BMI,-0.2250001663437087,0.570039722682999,mocap,0.7600529635773319,False,False,False,False,
+across,upper_leg_length,avg_mocap_upper_leg_length + avg_BMI + avg_weight,const,24.331179513495904,0.37917002532123467,mocap,0.6306489333336189,False,False,False,False,False
+across,upper_leg_length,avg_mocap_upper_leg_length + avg_BMI + avg_weight,avg_mocap_upper_leg_length,-0.2916965359193976,0.5677278587078329,mocap,0.7600529635773319,False,False,False,False,False
+across,upper_leg_length,avg_mocap_upper_leg_length + avg_BMI + avg_weight,avg_BMI,-1.4803652753006276,0.1540741769866499,mocap,0.42023345431137005,False,False,False,False,
+across,upper_leg_length,avg_mocap_upper_leg_length + avg_BMI + avg_weight,avg_weight,0.3432487768698115,0.18634600613980726,mocap,0.44723041473553743,False,False,False,False,
+across,upper_leg_length,avg_mocap_upper_leg_length + avg_BMI + avg_weight + sex,const,32.40344888413163,0.1998007320031212,mocap,0.44896049357428386,False,False,False,False,False
+across,upper_leg_length,avg_mocap_upper_leg_length + avg_BMI + avg_weight + sex,avg_mocap_upper_leg_length,-0.23753439125985037,0.5915043792540693,mocap,0.7814369780971191,False,False,False,False,False
+across,upper_leg_length,avg_mocap_upper_leg_length + avg_BMI + avg_weight + sex,avg_BMI,-1.092412998601632,0.2315976244704331,mocap,0.4764293989106052,False,False,False,False,
+across,upper_leg_length,avg_mocap_upper_leg_length + avg_BMI + avg_weight + sex,avg_weight,0.015258283662445499,0.9556962777421701,mocap,0.9691567886962852,False,False,False,False,
+across,upper_leg_length,avg_mocap_upper_leg_length + avg_BMI + avg_weight + sex,sex_Male,6.93436006804071,0.09271974055336833,mocap,0.3296701886341985,False,False,False,False,False
+across,biacromial_breadth,avg_mocap_biacromial_breadth,const,-7.9868654430805845,0.01799562717949472,mocap,0.14007407101876973,False,False,False,False,False
+across,biacromial_breadth,avg_mocap_biacromial_breadth,avg_mocap_biacromial_breadth,1.0657392872673765,0.009269005925234147,mocap,0.09205081746439428,False,False,False,False,False
+across,biacromial_breadth,avg_mocap_biacromial_breadth + avg_BMI,const,-5.586085126312222,0.45010600157330516,mocap,0.6850468981842007,False,False,False,False,False
+across,biacromial_breadth,avg_mocap_biacromial_breadth + avg_BMI,avg_mocap_biacromial_breadth,1.0197895121419855,0.0217182795839315,mocap,0.14875520179552992,False,False,False,False,False
+across,biacromial_breadth,avg_mocap_biacromial_breadth + avg_BMI,avg_BMI,-0.08204656366165171,0.7174204931636662,mocap,0.8467914017669502,False,False,False,False,
+across,biacromial_breadth,avg_mocap_biacromial_breadth + avg_BMI + avg_weight,const,-19.23867391862345,0.00877305852600211,mocap,0.09023717341030743,False,False,False,False,False
+across,biacromial_breadth,avg_mocap_biacromial_breadth + avg_BMI + avg_weight,avg_mocap_biacromial_breadth,1.7692247493656046,0.00033834640888147187,mocap,0.006960268982704565,True,True,True,True,True
+across,biacromial_breadth,avg_mocap_biacromial_breadth + avg_BMI + avg_weight,avg_BMI,0.8004712519668173,0.01575291612526369,mocap,0.12962399554502693,False,False,False,False,
+across,biacromial_breadth,avg_mocap_biacromial_breadth + avg_BMI + avg_weight,avg_weight,-0.20114967289347666,0.0043185653131826065,mocap,0.06549256277929386,False,False,False,True,
+across,biacromial_breadth,avg_mocap_biacromial_breadth + avg_BMI + avg_weight + sex,const,-12.873415327357424,0.21320069339092693,mocap,0.4548281459006441,False,False,False,False,False
+across,biacromial_breadth,avg_mocap_biacromial_breadth + avg_BMI + avg_weight + sex,avg_mocap_biacromial_breadth,1.5299228266881164,0.007605500632011951,mocap,0.08129434309010619,False,False,False,False,False
+across,biacromial_breadth,avg_mocap_biacromial_breadth + avg_BMI + avg_weight + sex,avg_BMI,0.7322373560428386,0.03403335272771643,mocap,0.1782110106469515,False,False,False,False,
+across,biacromial_breadth,avg_mocap_biacromial_breadth + avg_BMI + avg_weight + sex,avg_weight,-0.25099949872962773,0.015014933378439997,mocap,0.1271853180291388,False,False,False,False,
+across,biacromial_breadth,avg_mocap_biacromial_breadth + avg_BMI + avg_weight + sex,sex_Male,1.7355629026046056,0.4233440702924057,mocap,0.6658088740655678,False,False,False,False,False
+across,upper_arm_length,avg_mocap_upper_arm_length,const,-8.121769596548628,0.24363357378814424,mocap,0.4839066844895554,False,False,False,False,False
+across,upper_arm_length,avg_mocap_upper_arm_length,avg_mocap_upper_arm_length,0.26558162190282647,0.23633314899223057,mocap,0.47975500369750956,False,False,False,False,False
+across,upper_arm_length,avg_mocap_upper_arm_length + avg_BMI,const,-8.00703383854809,0.39582447303344515,mocap,0.6440533798510294,False,False,False,False,False
+across,upper_arm_length,avg_mocap_upper_arm_length + avg_BMI,avg_mocap_upper_arm_length,0.26598361678714183,0.2636824645021569,mocap,0.5096681193061825,False,False,False,False,False
+across,upper_arm_length,avg_mocap_upper_arm_length + avg_BMI,avg_BMI,-0.005179078678842795,0.9844798813324926,mocap,0.9844798813324926,False,False,False,False,
+across,upper_arm_length,avg_mocap_upper_arm_length + avg_BMI + avg_weight,const,-17.996383367679567,0.44463281759462037,mocap,0.6814943979598359,False,False,False,False,False
+across,upper_arm_length,avg_mocap_upper_arm_length + avg_BMI + avg_weight,avg_mocap_upper_arm_length,0.5482271030084762,0.40214341289762323,mocap,0.6485993402792061,False,False,False,False,False
+across,upper_arm_length,avg_mocap_upper_arm_length + avg_BMI + avg_weight,avg_BMI,0.35793833221318705,0.6612112207907459,mocap,0.8184472999523725,False,False,False,False,
+across,upper_arm_length,avg_mocap_upper_arm_length + avg_BMI + avg_weight,avg_weight,-0.10774773021911821,0.6362272031591891,mocap,0.811212897408879,False,False,False,False,
+across,upper_arm_length,avg_mocap_upper_arm_length + avg_BMI + avg_weight + sex,const,-15.662290712012608,0.46533588036882323,mocap,0.6872653002370313,False,False,False,False,False
+across,upper_arm_length,avg_mocap_upper_arm_length + avg_BMI + avg_weight + sex,avg_mocap_upper_arm_length,0.26004988504613435,0.6707502356511817,mocap,0.8255387515706852,False,False,False,False,False
+across,upper_arm_length,avg_mocap_upper_arm_length + avg_BMI + avg_weight + sex,avg_BMI,-0.16891118083305953,0.8343488465323643,mocap,0.91019874167167,False,False,False,False,
+across,upper_arm_length,avg_mocap_upper_arm_length + avg_BMI + avg_weight + sex,avg_weight,0.200908923305148,0.482667459234964,mocap,0.6985338103500986,False,False,False,False,
+across,upper_arm_length,avg_mocap_upper_arm_length + avg_BMI + avg_weight + sex,sex_Male,-4.874760816289626,0.13899413015490927,mocap,0.4033655915978158,False,False,False,False,False
+across,standing_height,avg_ruler_standing_height,const,2.5867911205445013,0.3362831229958264,ruler,0.6150301082398265,False,False,False,False,False
+across,standing_height,avg_ruler_standing_height,avg_ruler_standing_height,-0.017941079389485214,0.2610946969421459,ruler,0.5080761670225542,False,False,False,False,False
+across,standing_height,avg_ruler_standing_height + avg_BMI,const,1.033439843350203,0.6969048996387093,ruler,0.8396221463008076,False,False,False,False,False
+across,standing_height,avg_ruler_standing_height + avg_BMI,avg_ruler_standing_height,-0.022634668817896355,0.14792167578850515,ruler,0.41161836121300904,False,False,False,False,False
+across,standing_height,avg_ruler_standing_height + avg_BMI,avg_BMI,0.09569452302231489,0.14285864702422643,ruler,0.4033655915978158,False,False,False,False,
+across,standing_height,avg_ruler_standing_height + avg_BMI + avg_weight,const,-27.39550343812015,0.4616318878805791,ruler,0.6872653002370313,False,False,False,False,False
+across,standing_height,avg_ruler_standing_height + avg_BMI + avg_weight,avg_ruler_standing_height,0.14290345672756088,0.5080272785323491,ruler,0.7168584025604957,False,False,False,False,False
+across,standing_height,avg_ruler_standing_height + avg_BMI + avg_weight,avg_BMI,0.7096295914652991,0.3810170638890614,ruler,0.6306489333336189,False,False,False,False,
+across,standing_height,avg_ruler_standing_height + avg_BMI + avg_weight,avg_weight,-0.20719109010735187,0.44431233073634213,ruler,0.6814943979598359,False,False,False,False,
+across,standing_height,avg_ruler_standing_height + avg_BMI + avg_weight + sex,const,-16.322451019371393,0.6340981563227193,ruler,0.811212897408879,False,False,False,False,False
+across,standing_height,avg_ruler_standing_height + avg_BMI + avg_weight + sex,avg_ruler_standing_height,0.08778876487883053,0.6579553823692442,ruler,0.8184472999523725,False,False,False,False,False
+across,standing_height,avg_ruler_standing_height + avg_BMI + avg_weight + sex,avg_BMI,0.5518074466517904,0.4566744731130704,ruler,0.6852217274101517,False,False,False,False,
+across,standing_height,avg_ruler_standing_height + avg_BMI + avg_weight + sex,avg_weight,-0.18417135282396419,0.45681448494010113,ruler,0.6852217274101517,False,False,False,False,
+across,standing_height,avg_ruler_standing_height + avg_BMI + avg_weight + sex,sex_Male,1.0380949428608963,0.14219233316836621,ruler,0.4033655915978158,False,False,False,False,False
+across,wingspan,avg_ruler_wingspan,const,-6.049161353206351,0.22233924730003435,ruler,0.4666815861641178,False,False,False,False,False
+across,wingspan,avg_ruler_wingspan,avg_ruler_wingspan,0.03622629249076066,0.20957584104986848,ruler,0.4542393235624851,False,False,False,False,False
+across,wingspan,avg_ruler_wingspan + avg_BMI,const,-8.121230805883421,0.14863996377136438,ruler,0.41161836121300904,False,False,False,False,False
+across,wingspan,avg_ruler_wingspan + avg_BMI,avg_ruler_wingspan,0.02720237411757321,0.36797553707475117,ruler,0.6306489333336189,False,False,False,False,False
+across,wingspan,avg_ruler_wingspan + avg_BMI,avg_BMI,0.14742813830057228,0.3618670813702779,ruler,0.6306489333336189,False,False,False,False,
+across,wingspan,avg_ruler_wingspan + avg_BMI + avg_weight,const,-33.802159047516064,0.013804608427627743,ruler,0.1242414758486497,False,False,False,False,False
+across,wingspan,avg_ruler_wingspan + avg_BMI + avg_weight,avg_ruler_wingspan,0.18903445460997964,0.02216069943928525,ruler,0.14875520179552992,False,False,False,False,False
+across,wingspan,avg_ruler_wingspan + avg_BMI + avg_weight,avg_BMI,0.8326368292357941,0.021513669323013355,ruler,0.14875520179552992,False,False,False,False,
+across,wingspan,avg_ruler_wingspan + avg_BMI + avg_weight,avg_weight,-0.26578003678596474,0.032969727985240255,ruler,0.17583854925461467,False,False,False,False,
+across,wingspan,avg_ruler_wingspan + avg_BMI + avg_weight + sex,const,-36.227274780192346,0.010218962334293624,ruler,0.09810203840921879,False,False,False,False,False
+across,wingspan,avg_ruler_wingspan + avg_BMI + avg_weight + sex,avg_ruler_wingspan,0.1878346419115129,0.021277385581335167,ruler,0.14875520179552992,False,False,False,False,False
+across,wingspan,avg_ruler_wingspan + avg_BMI + avg_weight + sex,avg_BMI,0.7550448631371456,0.03252142916706717,ruler,0.17583854925461467,False,False,False,False,
+across,wingspan,avg_ruler_wingspan + avg_BMI + avg_weight + sex,avg_weight,-0.19023262554738682,0.13624811272287646,ruler,0.4033655915978158,False,False,False,False,
+across,wingspan,avg_ruler_wingspan + avg_BMI + avg_weight + sex,sex_Male,-1.6794340245657167,0.21781177898328674,ruler,0.4612484731410778,False,False,False,False,False
+across,sitting_height,avg_ruler_sitting_height,const,-26.733651551312644,0.04490743629982579,ruler,0.2163048838195832,False,False,False,False,False
+across,sitting_height,avg_ruler_sitting_height,avg_ruler_sitting_height,0.2988066825775656,0.045993744577144224,ruler,0.2163048838195832,False,False,False,False,False
+across,sitting_height,avg_ruler_sitting_height + avg_BMI,const,-20.03995357448688,0.18096387725067964,ruler,0.44723041473553743,False,False,False,False,False
+across,sitting_height,avg_ruler_sitting_height + avg_BMI,avg_ruler_sitting_height,0.29422549485462296,0.053228211762331314,ruler,0.22317266020462628,False,False,False,False,False
+across,sitting_height,avg_ruler_sitting_height + avg_BMI,avg_BMI,-0.2560153476366067,0.38086700033631815,ruler,0.6306489333336189,False,False,False,False,
+across,sitting_height,avg_ruler_sitting_height + avg_BMI + avg_weight,const,-55.93975243865938,0.3026707698973972,ruler,0.5734814587529631,False,False,False,False,False
+across,sitting_height,avg_ruler_sitting_height + avg_BMI + avg_weight,avg_ruler_sitting_height,0.6429392305604388,0.22820394870389052,ruler,0.472825447674248,False,False,False,False,False
+across,sitting_height,avg_ruler_sitting_height + avg_BMI + avg_weight,avg_BMI,0.6203604968346548,0.6259390850859239,ruler,0.811212897408879,False,False,False,False,
+across,sitting_height,avg_ruler_sitting_height + avg_BMI + avg_weight,avg_weight,-0.23294788527816718,0.4825933640349528,ruler,0.6985338103500986,False,False,False,False,
+across,sitting_height,avg_ruler_sitting_height + avg_BMI + avg_weight + sex,const,-48.58146708953039,0.5011406235317148,ruler,0.7109778304292309,False,False,False,False,False
+across,sitting_height,avg_ruler_sitting_height + avg_BMI + avg_weight + sex,avg_ruler_sitting_height,0.5819754741719464,0.38636190150009314,ruler,0.635841300754439,False,False,False,False,False
+across,sitting_height,avg_ruler_sitting_height + avg_BMI + avg_weight + sex,avg_BMI,0.5104000079295783,0.7348876649793917,ruler,0.8564892879249992,False,False,False,False,
+across,sitting_height,avg_ruler_sitting_height + avg_BMI + avg_weight + sex,avg_weight,-0.22750050065164834,0.5235816806351329,ruler,0.7214905455642023,False,False,False,False,
+across,sitting_height,avg_ruler_sitting_height + avg_BMI + avg_weight + sex,sex_Male,0.7323823803447395,0.8656803736368976,ruler,0.9115876603622988,False,False,False,False,False
+across,upper_leg_length,avg_ruler_upper_leg_length,const,6.573652334951667,0.698614669492001,ruler,0.8396221463008076,False,False,False,False,False
+across,upper_leg_length,avg_ruler_upper_leg_length,avg_ruler_upper_leg_length,-0.1708794233945637,0.6292640221623826,ruler,0.811212897408879,False,False,False,False,False
+across,upper_leg_length,avg_ruler_upper_leg_length + avg_BMI,const,2.562055505597769,0.8839233407791225,ruler,0.9157191444042708,False,False,False,False,False
+across,upper_leg_length,avg_ruler_upper_leg_length + avg_BMI,avg_ruler_upper_leg_length,-0.3097609756154587,0.4276897281323959,ruler,0.6658088740655678,False,False,False,False,False
+across,upper_leg_length,avg_ruler_upper_leg_length + avg_BMI,avg_BMI,0.43469998710845603,0.3583954977971021,ruler,0.6306489333336189,False,False,False,False,
+across,upper_leg_length,avg_ruler_upper_leg_length + avg_BMI + avg_weight,const,4.499678615502369,0.8715540303743441,ruler,0.9115876603622988,False,False,False,False,False
+across,upper_leg_length,avg_ruler_upper_leg_length + avg_BMI + avg_weight,avg_ruler_upper_leg_length,-0.3528777563857873,0.5695523904630053,ruler,0.7600529635773319,False,False,False,False,False
+across,upper_leg_length,avg_ruler_upper_leg_length + avg_BMI + avg_weight,avg_BMI,0.38317838650517644,0.6058576334840462,ruler,0.7967442851297045,False,False,False,False,
+across,upper_leg_length,avg_ruler_upper_leg_length + avg_BMI + avg_weight,avg_weight,0.01962144050124867,0.9251547537766192,ruler,0.9549984555113488,False,False,False,False,
+across,upper_leg_length,avg_ruler_upper_leg_length + avg_BMI + avg_weight + sex,const,5.227615853554566,0.8602734255894167,ruler,0.9115876603622988,False,False,False,False,False
+across,upper_leg_length,avg_ruler_upper_leg_length + avg_BMI + avg_weight + sex,avg_ruler_upper_leg_length,-0.44866064247824056,0.5333155437338337,ruler,0.7245041348836986,False,False,False,False,False
+across,upper_leg_length,avg_ruler_upper_leg_length + avg_BMI + avg_weight + sex,avg_BMI,0.24830310848426373,0.7772945507638893,ruler,0.8883366294444449,False,False,False,False,
+across,upper_leg_length,avg_ruler_upper_leg_length + avg_BMI + avg_weight + sex,avg_weight,0.1350822814806953,0.7375324423798604,ruler,0.8564892879249992,False,False,False,False,
+across,upper_leg_length,avg_ruler_upper_leg_length + avg_BMI + avg_weight + sex,sex_Male,-2.073352063452828,0.7309394526155482,ruler,0.8564892879249992,False,False,False,False,False
+across,biacromial_breadth,avg_ruler_biacromial_breadth,const,-25.214947647129623,0.058236272856296144,ruler,0.2325555477896206,False,False,False,False,False
+across,biacromial_breadth,avg_ruler_biacromial_breadth,avg_ruler_biacromial_breadth,0.8258514863401132,0.040096733513458736,ruler,0.20621177235493066,False,False,False,False,False
+across,biacromial_breadth,avg_ruler_biacromial_breadth + avg_BMI,const,-39.405780075963165,0.025629760407505107,ruler,0.16046458689916243,False,False,False,False,False
+across,biacromial_breadth,avg_ruler_biacromial_breadth + avg_BMI,avg_ruler_biacromial_breadth,0.6649170920147252,0.08926116509598099,ruler,0.32957968650823755,False,False,False,False,False
+across,biacromial_breadth,avg_ruler_biacromial_breadth + avg_BMI,avg_BMI,0.797135777622987,0.17567581666471951,ruler,0.44723041473553743,False,False,False,False,
+across,biacromial_breadth,avg_ruler_biacromial_breadth + avg_BMI + avg_weight,const,-5.21461877679137,0.8572667870192204,ruler,0.9115876603622988,False,False,False,False,False
+across,biacromial_breadth,avg_ruler_biacromial_breadth + avg_BMI + avg_weight,avg_ruler_biacromial_breadth,-0.4579235893368071,0.6108547357711397,ruler,0.7996643813731283,False,False,False,False,False
+across,biacromial_breadth,avg_ruler_biacromial_breadth + avg_BMI + avg_weight,avg_BMI,-0.6553417653780516,0.5858671222018021,ruler,0.7775563649498572,False,False,False,False,
+across,biacromial_breadth,avg_ruler_biacromial_breadth + avg_BMI + avg_weight,avg_weight,0.5486879962596527,0.19743652812897056,ruler,0.44817845817842816,False,False,False,False,
+across,biacromial_breadth,avg_ruler_biacromial_breadth + avg_BMI + avg_weight + sex,const,-32.386292286070066,0.35334260453398403,ruler,0.6281646302826382,False,False,False,False,False
+across,biacromial_breadth,avg_ruler_biacromial_breadth + avg_BMI + avg_weight + sex,avg_ruler_biacromial_breadth,0.03847781720534743,0.9665495427501671,ruler,0.9731070383124276,False,False,False,False,False
+across,biacromial_breadth,avg_ruler_biacromial_breadth + avg_BMI + avg_weight + sex,avg_BMI,-0.50005154890342,0.6609075879180815,ruler,0.8184472999523725,False,False,False,False,
+across,biacromial_breadth,avg_ruler_biacromial_breadth + avg_BMI + avg_weight + sex,avg_weight,0.7009624623294537,0.10959762868363619,ruler,0.3757632983438955,False,False,False,False,
+across,biacromial_breadth,avg_ruler_biacromial_breadth + avg_BMI + avg_weight + sex,sex_Male,-8.173632089979415,0.19712104274034892,ruler,0.44817845817842816,False,False,False,False,False
+across,upper_arm_length,avg_ruler_upper_arm_length,const,-7.888801879404861,0.6398772641016715,ruler,0.811212897408879,False,False,False,False,False
+across,upper_arm_length,avg_ruler_upper_arm_length,avg_ruler_upper_arm_length,0.21546034232017017,0.6237950709210864,ruler,0.811212897408879,False,False,False,False,False
+across,upper_arm_length,avg_ruler_upper_arm_length + avg_BMI,const,-2.967960853714569,0.8661960810889437,ruler,0.9115876603622988,False,False,False,False,False
+across,upper_arm_length,avg_ruler_upper_arm_length + avg_BMI,avg_ruler_upper_arm_length,0.30926475907487716,0.49692456542842567,ruler,0.7084865091256761,False,False,False,False,False
+across,upper_arm_length,avg_ruler_upper_arm_length + avg_BMI,avg_BMI,-0.34688924264091736,0.3500309062350021,ruler,0.6261422422091963,False,False,False,False,
+across,upper_arm_length,avg_ruler_upper_arm_length + avg_BMI + avg_weight,const,-47.29366498672998,0.05197378919362882,ruler,0.22317266020462628,False,False,False,False,False
+across,upper_arm_length,avg_ruler_upper_arm_length + avg_BMI + avg_weight,avg_ruler_upper_arm_length,1.4245937954906607,0.026427898189648455,ruler,0.16194116337486714,False,False,False,False,False
+across,upper_arm_length,avg_ruler_upper_arm_length + avg_BMI + avg_weight,avg_BMI,0.7210773143079785,0.165055317786151,ruler,0.4392863327960774,False,False,False,False,
+across,upper_arm_length,avg_ruler_upper_arm_length + avg_BMI + avg_weight,avg_weight,-0.3467850120271068,0.025140823398467824,ruler,0.16046458689916243,False,False,False,False,
+across,upper_arm_length,avg_ruler_upper_arm_length + avg_BMI + avg_weight + sex,const,-14.30853650203239,0.5326314329154056,ruler,0.7245041348836986,False,False,False,False,False
+across,upper_arm_length,avg_ruler_upper_arm_length + avg_BMI + avg_weight + sex,avg_ruler_upper_arm_length,0.8173942686436515,0.1421471512613602,ruler,0.4033655915978158,False,False,False,False,False
+across,upper_arm_length,avg_ruler_upper_arm_length + avg_BMI + avg_weight + sex,avg_BMI,0.7033852342618718,0.10529171763582462,ruler,0.3653495744471987,False,False,False,False,
+across,upper_arm_length,avg_ruler_upper_arm_length + avg_BMI + avg_weight + sex,avg_weight,-0.5232185488727077,0.004320689905578414,ruler,0.06549256277929386,False,False,False,True,
+across,upper_arm_length,avg_ruler_upper_arm_length + avg_BMI + avg_weight + sex,sex_Male,6.586846044165476,0.052142671442330535,ruler,0.22317266020462628,False,False,False,False,False
